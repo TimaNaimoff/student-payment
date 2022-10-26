@@ -1,6 +1,7 @@
 package edu.adultproject.student.business;
 import edu.adultproject.student.dao.StudentRepository;
 
+import edu.adultproject.student.domain.Address;
 import edu.adultproject.student.domain.Person;
 import edu.adultproject.student.domain.StudentOrder;
 import org.slf4j.Logger;
@@ -41,6 +42,12 @@ public class StudentOrderService {
             person.setSurName("Пирожкова");
             person.setGivenName("Анастасия");
             person.setPatronymic("Булкинс");
+            Address a=new Address();
+            a.setPostIndex("190000");
+            a.setBuilding("25");
+            a.setExtension("666");
+            a.setApartment("A");
+            person.setAddress(a);
         }else{
             person.setSurName("Бакланов");
             person.setGivenName("Кирилл");

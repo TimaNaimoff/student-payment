@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cc581dc-0054-4fb3-8952-40acaba36fc5" name="Changes" comment="">
+    <list default="true" id="9cc581dc-0054-4fb3-8952-40acaba36fc5" name="Changes" comment="git commit -m &quot;Added Embeddable-annotations and Attribute Overrides for business&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/adultproject/student/business/StudentOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/adultproject/student/business/StudentOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/adultproject/student/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/adultproject/student/domain/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/adultproject/student/domain/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/adultproject/student/domain/StudentOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/student_project.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/student_project.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit -m &quot;Added Embeddable-annotations and Attribute Overrides for business&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Added Embeddable-annotations and Attribute Overrides for business&quot;" />
   </component>
 </project>
