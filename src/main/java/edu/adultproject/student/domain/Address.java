@@ -1,6 +1,11 @@
 package edu.adultproject.student.domain;
 
+import org.hibernate.annotations.Fetch;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Embeddable;
+import javax.persistence.FetchType;
+import javax.persistence.ManyToOne;
 
 @Embeddable
 public class Address {
@@ -8,6 +13,18 @@ public class Address {
     private String building;
     private String extension;
     private String apartment;
+    @ManyToOne(cascade= CascadeType.REFRESH,fetch= FetchType.EAGER)
+    private Street street;
+
+
+
+    public Street getStreet() {
+        return street;
+    }
+
+    public void setStreet(Street street) {
+        this.street = street;
+    }
 
     public String getPostIndex() {
         return postIndex;

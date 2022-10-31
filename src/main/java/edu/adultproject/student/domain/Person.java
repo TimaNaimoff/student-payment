@@ -3,7 +3,7 @@ package edu.adultproject.student.domain;
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@Embeddable
+@MappedSuperclass
 public class Person {
 //    @Id
 //    @GeneratedValue(strategy= GenerationType.IDENTITY)
